@@ -1,25 +1,24 @@
 import { useState } from "react";
+
+// Librerias
 import { Route, Routes } from "react-router";
 
+// Componentes
 import Home from "./page/Home";
-import Header from "./UI/Header";
-import Footer from "./UI/Footer";
 import Applications from "./page/Applications";
+import Layout from "./UI/Layout";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
-      <div className="min-h-screen bg-zinc-950 font-sans selection:bg-emerald-500/30 selection:text-emerald-400 text-zinc-200 grid grid-rows-[auto_1fr_auto]">
-        <Header />
-        <Routes>
+      <Routes>
+        <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
           <Route path="applications" element={<Applications />} />
-        </Routes>
-
-        <Footer />
-      </div>
+        </Route>
+      </Routes>
     </>
   );
 }
