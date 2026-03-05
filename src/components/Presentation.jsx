@@ -6,7 +6,7 @@ import ButtonGreen from "./ButtonGreen";
 import ButtonGray from "./ButtonGray";
 import { Link } from "react-router";
 
-const Hero = () => (
+const Presentation = () => (
   <section className="relative pt-32 pb-20 px-6 overflow-hidden">
     {/* Contenedor de Resplandor (Glow Effect) */}
     <div className="absolute top-0 left-1/2 -translate-x-1/2 w-full h-[500px] bg-emerald-500/10 blur-[120px] rounded-full -z-10" />
@@ -24,7 +24,7 @@ const Hero = () => (
           Esta es la plataforma definitiva para ver y probar mis aplicaciones
           moviles de primera mano.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center">
+        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
           <Link to="/applications">
             <ButtonGreen title="Ver Aplicaciones" />
           </Link>
@@ -41,4 +41,4 @@ const Hero = () => (
   </section>
 );
 
-export default Hero;
+export default Presentation;

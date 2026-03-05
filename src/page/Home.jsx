@@ -6,14 +6,14 @@ import { Zap, Rocket, ShieldCheck } from "lucide-react";
 import { staggerContainer } from "../constants/motion_variants";
 
 // Components
-import Hero from "../components/Hero";
+import Presentation from "../components/Presentation";
 import FeatureCard from "../components/FeatureCard";
 import CallActionCart from "../components/CallActionCart";
 
 const Home = () => {
   return (
     <main>
-      <Hero />
+      <Presentation />
       <section id="features" className="max-w-7xl mx-auto px-6 py-20">
         <motion.div
           initial="hidden"
