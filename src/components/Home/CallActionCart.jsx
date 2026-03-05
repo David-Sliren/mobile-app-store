@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import ButtonCallAction from "./ButtonCallAction";
+import ButtonCallAction from "../Buttons/ButtonCallAction";
 
 const CallActionCart = () => {
   return (

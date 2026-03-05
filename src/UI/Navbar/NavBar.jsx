@@ -1,5 +1,5 @@
 import { Layers } from "lucide-react";
-import ButtonCallMini from "./ButtonCallMini";
+import ButtonCallMini from "../../components/Buttons/ButtonCallMini";
 import { NavLink } from "react-router";
 
 const Navbar = () => (

@@ -1,5 +1,5 @@
 import { motion } from "motion/react";
-import { fadeIn } from "../constants/motion_variants";
+import { fadeIn } from "../../constants/motion_variants";
 
 const FeatureCard = ({ icon: Icon, title, desc }) => (
   <motion.div

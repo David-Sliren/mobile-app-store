@@ -6,9 +6,9 @@ import { Zap, Rocket, ShieldCheck } from "lucide-react";
 import { staggerContainer } from "../constants/motion_variants";
 
 // Components
-import Presentation from "../components/Presentation";
-import FeatureCard from "../components/FeatureCard";
-import CallActionCart from "../components/CallActionCart";
+import Presentation from "../components/Home/Presentation";
+import FeatureCard from "../components/Home/FeatureCard";
+import CallActionCart from "../components/Home/CallActionCart";
 
 const Home = () => {
   return (

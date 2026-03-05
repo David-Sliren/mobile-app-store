@@ -1,4 +1,4 @@
-import ApplicationCard from "../components/ApplicationCard";
+import ApplicationCard from "../components/Application/ApplicationCard";
 
 // Constantes
 import { staggerContainer } from "../constants/motion_variants";

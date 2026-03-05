@@ -1,7 +1,7 @@
 import React from "react";
 
 // constanst
-import { fadeIn } from "../constants/motion_variants";
+import { fadeIn } from "../../constants/motion_variants";
 
 // Librerias
 import { motion } from "motion/react";

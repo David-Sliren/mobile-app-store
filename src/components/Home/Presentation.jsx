@@ -1,9 +1,9 @@
 import { ChevronRight } from "lucide-react";
 import { motion } from "motion/react";
-import { fadeIn } from "../constants/motion_variants";
+import { fadeIn } from "../../constants/motion_variants";
 import LastVersion from "./LastVersion";
-import ButtonGreen from "./ButtonGreen";
-import ButtonGray from "./ButtonGray";
+import ButtonGreen from "../Buttons/ButtonGreen";
+import ButtonGray from "../Buttons/ButtonGray";
 import { Link } from "react-router";
 
 const Presentation = () => (
