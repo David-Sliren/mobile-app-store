@@ -2,9 +2,9 @@
 
 export const dataOfApps = new Map();
 
-const apps = [
+export const apps = [
   {
-    name: "RENPENTAIN",
+    name: "Renpentain",
     slogan: { normal: "Nunca olvides", born: "lo que necesitas" },
 
     description:
@@ -24,7 +24,7 @@ const apps = [
     download:
       "https://github.com/David-Sliren/Renpentain/releases/download/v1.0.1/Instalar_Renpentain_v1.0.1.apk",
     video_presentation:
-      "https://res.cloudinary.com/dudiot7uv/video/upload/v1773037868/Serie_Apps_Parte_1-_Renpentain_czpxxm.mp4",
+      "https://res.cloudinary.com/dudiot7uv/video/upload/v1773177961/Serie_Apps_-_Flashview_-_Renpentain_aqn77y.mp4",
     video_description:
       "https://res.cloudinary.com/dudiot7uv/video/upload/v1773038096/video_3_osnu5t.webm",
   },
