@@ -3,6 +3,11 @@ export const fadeIn = {
   visible: { opacity: 1, y: 0, transition: { duration: 0.6 } },
 };
 
+export const fadeInLeft = {
+  hidden: { opacity: 0, x: 20 },
+  visible: { opacity: 1, x: 0, transition: { duration: 0.6, delay: 0.2 } },
+};
+
 export const staggerContainer = {
   hidden: { opacity: 0 },
   visible: {

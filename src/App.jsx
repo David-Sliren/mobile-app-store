@@ -7,6 +7,7 @@ import { Route, Routes } from "react-router";
 import Home from "./page/Home";
 import Applications from "./page/Applications";
 import Layout from "./UI/Layout";
+import Description from "./page/Description";
 
 function App() {
   const [count, setCount] = useState(0);
@@ -18,6 +19,7 @@ function App() {
           <Route path="/" element={<Home />} />
           <Route path="applications" element={<Applications />} />
         </Route>
+        <Route path="applications/:app" element={<Description />} />
       </Routes>
     </>
   );

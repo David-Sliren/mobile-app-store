@@ -5,6 +5,7 @@ import { fadeIn } from "../../constants/motion_variants";
 
 // Librerias
 import { motion } from "motion/react";
+import { Link } from "react-router";
 
 const ApplicationCard = ({
   title = "",
@@ -42,14 +43,15 @@ const ApplicationCard = ({
         </p>
       </div>
       <div className="flex justify-center items-center">
-        <button
+        <Link
+          to={`/applications/${title}`}
           onClick={handle}
           className="inline-flex items-center will-change-transform transform-gpu transition-all duration-150 ease-in-out  active:scale-[0.99] underline-offset-4 hover:underline  text-slate-50/80 hover:text-slate-50 justify-center h-8 px-3 max-w-60 rounded-xl cursor-pointer"
         >
           <div className=" transform-gpu will-change-transform text-sm font-medium tracking-tight justify-center text-center">
             Mostrar más
           </div>
-        </button>
+        </Link>
       </div>
     </motion.article>
   );
