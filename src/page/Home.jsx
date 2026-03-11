@@ -23,6 +23,7 @@ const Home = () => {
           className="grid grid-cols-1 md:grid-cols-3 gap-8"
         >
           <FeatureCard
+            isSoon={true}
             icon={ShieldCheck}
             title="Versiones estables"
             desc="Tus favoritas, listas para usar. Aplicaciones probadas a fondo para que funcionen siempre perfecto."
