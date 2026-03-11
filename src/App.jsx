@@ -8,12 +8,14 @@ import Home from "./page/Home";
 import Applications from "./page/Applications";
 import Layout from "./UI/Layout";
 import Description from "./page/Description";
+import ScrollToHash from "./UI/ScrollToHash";
 
 function App() {
   const [count, setCount] = useState(0);
 
   return (
     <>
+      <ScrollToHash />
       <Routes>
         <Route element={<Layout />}>
           <Route path="/" element={<Home />} />
