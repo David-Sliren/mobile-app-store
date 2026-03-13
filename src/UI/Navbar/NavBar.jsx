@@ -8,6 +8,9 @@ import { Layers, Menu } from "lucide-react";
 // Constants
 import { fadeIn, fadeInLeft } from "../../constants/motion_variants";
 
+// Imagenes
+import logo from "../../assets/img/apple-touch-icon.png";
+
 // componentes
 import ButtonCallMini from "../../components/Buttons/ButtonCallMini";
 import IconButton from "../../components/Buttons/IconButton";
@@ -25,9 +28,14 @@ const Navbar = () => {
     <>
       <nav className="fixed top-0 w-full z-50 backdrop-blur-md border-b border-white/5 bg-zinc-950/50">
         <div className="max-w-7xl mx-auto px-6 h-16 flex items-center justify-between">
-          <Link to="/" className="flex items-center gap-2">
-            <div className="w-8 h-8 bg-gradient-to-tr from-indigo-500 to-emerald-400 rounded-lg flex items-center justify-center">
-              <Layers className="text-white size-5" />
+          <Link to="/" className="flex items-center justify-center gap-2">
+            <div className="w-8 h-8 bg-gradient-to-tr from-indigo-500 to-emerald-400 rounded-lg flex items-center justify-center rounded-lg overflow-hidden">
+              {/* <Layers className="text-white size-5" /> */}
+              <img
+                src={logo}
+                alt="logo de la tienda sliren"
+                className="size-full object-cover"
+              />
             </div>
             <span className="text-white font-black tracking-tighter text-xl uppercase">
               D_SLIREN
